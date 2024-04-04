@@ -1,9 +1,11 @@
 import React from 'react'
 import Relax from '../Pages/Relax.png'
+import Navbar from '../Navbar'
 
 function About() {
   return (
     <>
+    < Navbar />
       <div>
         <div>
           <img src={Relax} alt="" style={{ width: "100%", height: "80vh" }} />

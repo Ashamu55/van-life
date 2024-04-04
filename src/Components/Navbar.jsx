@@ -4,10 +4,6 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     const NavLinks = [
         {
-            name: '',
-            path: '/home',
-        },
-        {
             name: 'About',
             path: '/about',
         },
@@ -35,10 +31,12 @@ const Navbar = () => {
                     {NavLinks.map((link)=>(
                         <NavLink style={{textDecoration: 'none', color: 'inherit',}}
                         className={({isActive})=>
-                        isActive ? "ext-3xl font-bold underline" : null
+                        isActive ?  "ext-3xl font-bold underline" : null
                     }
                     key={link.name}
-                    to={link.path}>
+                    to={link.path}
+                        style={{ textDecoration: link.isActive ? 'underline' : '', fontWeight: link.isActive ? 'bold' : 'normal' }}
+                    >
                         <li>{link.name}</li>
                     </NavLink>
                     ))}

@@ -1,11 +1,13 @@
 import React from 'react'
 import Travel from '../Pages/Travel.png'
 import { NavLink } from 'react-router-dom'
+import Navbar from '../Navbar'
 
 
 function Home() {
   return (
     <>
+    < Navbar />
         <section>
             <div style={{textAlign:'center'}}>
                 <div className='home-image'>

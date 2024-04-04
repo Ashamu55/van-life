@@ -5,10 +5,12 @@ import Raliable from '../Pages/Raliable.png'
 import Dream from '../Pages/Dream.png'
 import Cruiser from '../Pages/Dream.png'
 import Green from '../Pages/Green.png'
+import Navbar from '../Navbar'
 
 function Vans() {
   return (
     <>
+    <Navbar />
       <div style={{ padding: "30px 200px", }}>
         <h2 style={{ fontFamily: "sans-serif", fontWeight: "bold", fontSize: '50px' }}>Explore our van options</h2>
         <div style={{ display: "flex", alignItems: "center", gap: "40px", marginTop: "20px" }}>

@@ -10,7 +10,7 @@ import Footer from "./Components/Footer"
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path = "/home" element={<Home />} />
         <Route path = "/" element={<Navigate to = "/home" />} />
