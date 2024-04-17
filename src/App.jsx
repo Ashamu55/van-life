@@ -11,6 +11,7 @@ import Host from "./Components/Host"
 import { Income } from "./Components/Income"
 import { Reviews } from "./Components/Reviews"
 import Dashboard from "./Components/Dashboard"
+import { Van } from "./Components/Van"
 
 // import Navigaing from "./Components/Navigaing"
 
@@ -31,6 +32,7 @@ function App() {
   <Route path="" element={<Dashboard />} />
     <Route path="/Host/Income" element={<Income />} />
     <Route path="/Host/Reviews" element={<Reviews />} />
+    <Route path="/Host/Vans" element={<Van />} />
   </Route>
 </Routes>
 
