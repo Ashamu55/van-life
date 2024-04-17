@@ -12,6 +12,7 @@ import { Income } from "./Components/Income"
 import { Reviews } from "./Components/Reviews"
 import Dashboard from "./Components/Dashboard"
 import { Van } from "./Components/Van"
+import "./App.css"
 
 // import Navigaing from "./Components/Navigaing"
 
