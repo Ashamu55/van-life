@@ -13,7 +13,10 @@ import { Reviews } from "./Components/Reviews"
 import Dashboard from "./Components/Dashboard"
 import { Van } from "./Components/Van"
 import "./App.css"
-
+import { VansInfo } from "./Components/VansInfo"
+import Vandetails from "./Components/Vandetails"
+import Vanphoto from "./Components/Vanphoto"
+import Vanprices from "./Components/Vanprices"
 // import Navigaing from "./Components/Navigaing"
 
 
@@ -30,10 +33,16 @@ function App() {
   
   {/* Nested routes for /Host */}
   <Route path="/Host" element={<Host />}>
-  <Route path="" element={<Dashboard />} />
+    <Route path="/Host" element={<Dashboard />} />
     <Route path="/Host/Income" element={<Income />} />
     <Route path="/Host/Reviews" element={<Reviews />} />
     <Route path="/Host/Vans" element={<Van />} />
+    <Route path="/Host/Vans/:id" element={<VansInfo />} >
+      <Route path="" element={< Vandetails />} />
+      <Route path="Vanphoto" element={< Vanphoto />} />
+      <Route path="Vanprices" element={< Vanprices />} />
+    </Route>
+    
   </Route>
 </Routes>
 
