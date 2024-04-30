@@ -34,7 +34,7 @@ const Vandetails = () => {
   return (
     <div>
         <div>
-            <p style={{fontSize:"1rem", fontWeight:"700", marginBottom:"1.3rem"}}>Name:<span style={{fontSize:"1rem", fontWeight:"500"}}>{van.name}</span></p>
+            <p style={{fontSize:"1rem", fontWeight:"700", marginBottom:"1.3rem",}}>Name:<span style={{fontSize:"1rem", fontWeight:"500"}}>{van.name}</span></p>
             <p style={{fontSize:"1rem", fontWeight:"700", marginBottom:"1.3rem"}}>category:<span style={{fontSize:"1rem", fontWeight:"500"}}>{van.category}</span></p>
             <p style={{fontSize:"1rem", fontWeight:"700", marginBottom:"1.3rem"}}>description:<span style={{fontSize:"1rem", fontWeight:"500"}}>{van.description}</span></p>
             <p style={{fontSize:"1rem", fontWeight:"700"}}>visibility:<span style={{fontSize:"1rem", fontWeight:"500"}}>{van.visibility}</span></p>

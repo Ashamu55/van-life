@@ -32,15 +32,15 @@ export const VansInfo = () => {
 
             <nav>
                 <ul>
-                    <NavLink to={`/Host/van/${id}`}>
+                    <NavLink to={`/Host/vans/${id}`}>
                         <li>Detail</li>
                     </NavLink>
 
-                    <NavLink to={`/Host/van/${id}/Vanprices`}>
+                    <NavLink to={`/Host/vans/${id}/Vanprices`}>
                         <li>price</li>
                     </NavLink>
 
-                    <NavLink to={`/Host/van/${id}/Vanphoto`}>
+                    <NavLink to={`/Host/vans/${id}/Vanphoto`}>
                         <li>Photos</li>
                     </NavLink>
                 </ul>
