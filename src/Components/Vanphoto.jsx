@@ -27,7 +27,7 @@ const van = vanphoto.find((van)=>van.id === parseInt(id))
   return (
     <>
       <div>
-      <img src={van.photo} alt="Van" />
+      <img src={van.photo} alt="Van"/>
       </div>
     </>
   )
