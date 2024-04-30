@@ -17,7 +17,7 @@ const Vanphoto = () => {
         photo : Beach
     },
 
-    {
+    { 
         id: 3,
         photo : Green
     }
